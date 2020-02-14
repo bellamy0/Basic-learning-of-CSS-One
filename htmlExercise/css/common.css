@@ -1,0 +1,41 @@
+
+/* 去掉边框 */
+*{ margin:0; padding:0; }
+/* 去掉列表前面的点 */
+ul,ol{ list-style: none;}
+/* 把图片设置为块 */
+img{display: block;}
+/* 去掉链接下划线，设置默认颜色 */
+a{text-decoration: none; color: #646464; }
+/* 设置标题默认大小 */
+h1,h2,h3{font-size:16px;}
+/* 设置默认中英文文字 */
+body{ font-family: Arial; }
+
+/* 设置浮动，用伪类是因为伪类才能重复使用 */
+.l{float: left;}
+.r{float: right;}
+/* 设置为块显示 */
+.clear:after{ content: ""; display:block; clear: both; }
+/* 设置版心，固定宽度，居中显示，内容根据版心有相对定位 */
+.container{ width:1080px; margin:0 auto; position: relative; }
+/* 设置通栏 */
+.container-fluid{ width: 100%; }
+
+#head{height: 81px;}
+
+#head .head_log{ width: 162px; height: 44px;} 
+
+#head .head_menu{ font-size: 14px; line-height: 81px; }
+
+#head .head_menu li{ float: left; margin-left: 58px;}
+
+.area_title{margin-top: 60px;  text-align: center; }
+.area_title h2{ height: 20px;line-height: 20px;font-size: 20px; color: #363636; background: url(../images/title_bg.jpg) no-repeat center; font-weight: normal;}
+.area_title p{color: #9F9F9F; line-height: 34px; font-size: 14px;}
+
+
+#foot{background: #66c5b4;}
+#foot .container{height: 54px; line-height: 54px;font-size: 12px;color: white;}
+#foot a{color: white;margin: 0 10px;}
+
